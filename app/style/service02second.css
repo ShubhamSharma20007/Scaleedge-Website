@@ -1,0 +1,125 @@
+.sectwo-main-container {
+    margin-top: 50px;
+}
+
+.sectwo-left {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+    margin-bottom: 30px;
+    padding: 50px;
+    position: relative;
+    transition: .3s;
+    min-height: 250px !important;
+}
+
+.sec-sec{
+    text-align: start !important;
+}
+.sectwo-left:hover::after {
+    background-color: rgb(51, 51, 179);
+}
+
+.sectwo-left:hover {
+    background-color: #FFDC60;
+}
+
+.sectwo-left::after {
+    background-color: #eff2fe;
+    border-top-left-radius: 10px;
+    content: "";
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: .3s;
+    width: 100px;
+}
+
+.sectwo-title {
+    color: #232323;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.sectwo-content p {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sectwo-subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+}
+
+.sectwo-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectwo-link a {
+    color: #232323;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.sectwo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectwo-icon {
+    z-index: 1;
+}
+
+.sectwo-icon span {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .07);
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    line-height: 80px;
+    width: 80px;
+    margin: 10px 0px;
+}
+
+.sectwo-icon span i {
+    margin: auto;
+    color: orange;
+    padding: 30px;
+}
+
+.sectwo-link a {
+    color: black;
+    font-weight: 700;
+}
+
+.ser2-first-container {
+ 
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-second-section {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1150px) {
+    .sectwo-left {
+        display: inline-block;
+        padding: 20px;
+    }
+    .sectwo-icon {
+        justify-content: start;
+    }
+}

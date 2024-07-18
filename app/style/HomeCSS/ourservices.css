@@ -1,0 +1,81 @@
+.service-main-container{
+    position: relative;
+    margin-top: 100px;
+}
+
+.service-shape{
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
+
+.ourserv{
+    overflow: hidden;
+}
+
+
+.inner-icon-container{
+   overflow: hidden;
+    padding-bottom: 25px;
+    background-color: var(--it-common-white);
+    border: 2px dashed transparent;
+    border-top-right-radius: 20%;
+    padding: 20px 0px;
+}
+
+.fix-value{
+    position: relative;
+}
+
+.innericon{
+    left: 30px;
+    color: black;
+    position: absolute;
+    top: 26%;
+}
+
+.innericon span i{
+    color: white;
+    outline: none;
+  
+}
+
+.sevice-card-context h3{
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  
+
+}
+
+.sevice-card-context p{
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    color: #636363;
+  
+}
+
+.service-card-link a{
+    color: #59c9da;
+    font-size: 17px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-weight: 500;
+}
+
+.service-card-link a i{
+    margin-left: 10px;
+    transform: translateY(2px);
+
+}
+
+/* @media screen and (max-width:1150px) {
+    .inner-icon-container{
+        padding: 30px 40px;
+    }
+    
+} */
+

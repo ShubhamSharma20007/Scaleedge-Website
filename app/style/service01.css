@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.warehouse-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.small-card-container{
+    background-image:linear-gradient(0deg, #e4d0e4 0%, #eff4f5 100%);
+}
+
+.sectwo-icon span i {
+    font-size: 22px;
+}
+
+.person-name i {
+    font-size: 18px;
+}
+
+.warehouse-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.warehouse-right-container img {
+    animation: animation 2s infinite alternate-reverse forwards;
+}
+
+.umbrella-img {
+    position: absolute;
+    left: -1px;
+    bottom: 40px;
+    animation: umbrella-animation 2s infinite alternate-reverse forwards;
+}
+
+.rainbow {
+    position: absolute;
+    left: -40px;
+    top: 30px;
+    animation: curveline-two 12s infinite alternate forwards;
+    overflow: hidden;
+}
+
+.snake-line-container {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+
+.snake-line-container {
+    animation: curveline 8s infinite alternate-reverse forwards;
+}
+
+.cards-container {
+    justify-content: space-evenly;
+    padding: 10px 5px;
+    align-items: center;
+}
+
+.first-context {
+    background-color: #31303f;
+    border-radius: 25px;
+    margin: 10px 12px;
+}
+
+*::selection {
+    background-color: #FFDC60;
+}
+
+.header-section {
+    display: block;
+    margin: 30px 0;
+    text-align: start;
+}
+
+.service-tit {
+    -webkit-text-stroke: thin
+}
+
+.header-section i {
+    text-align: center;
+    color: #924a4a;
+}
+
+.section-manage {
+    text-align: start !important;
+}
+
+.header-section h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: white;
+}
+
+.app-mid-title {
+    font-size: 40px;
+}
+
+.address {
+    text-align: start;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 15px 5px;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+}
+
+.person-name {
+    display: flex;
+    align-items: center;
+    margin: 20px 5px;
+}
+
+.person-name p {
+    margin: auto 0;
+    color: #fff;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.address p {
+    color: #fff;
+}
+
+.cards-container {
+    margin: 20px;
+}
+
+.my-cards {
+    margin: 20px;
+}
+
+.second-context {
+    background-color: #31303f;
+    border-radius: 25px;
+    margin: 10px 5px;
+    padding: 20px 25px !important;
+}
+
+.third-context {
+    background-color: #31303f;
+    padding: 20px 25px !important;
+    border-radius: 25px;
+    margin: 10px 5px;
+    box-shadow: 10px 2px 6px -3px gray;
+}
+
+.first-context {
+    background-color: #31303f;
+    border-radius: 40px;
+    padding: 40px 60px;
+}
+
+.second-context {
+    border-radius: 25px;
+    margin: 10px 27px;
+    box-shadow: 10px 2px 6px -3px gray;
+}
+
+.third-context {
+    background-color: #31303f;
+    border-radius: 25px;
+    margin: 10px 27px;
+    box-shadow: 10px 2px 6px -3px gray;
+}
+
+.cards-container {
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jaipur-container h3 {
+    color: #ff69b4;
+}
+
+.hyderabad-container h3 {
+    color: orange !important;
+}
+
+.ludhiana-container h3 {
+    color: #f08080;
+}
+
+.bhiwandi-container h3 {
+    color: #87cefa;
+}
+
+.ahmedabad-container h3 {
+    color: #fafad2;
+}
+
+.chennai-container h3 {
+    color: #20b2aa;
+}
+
+.fa-user {
+    color: #fff;
+}
+
+.first-context:hover .fa-location-dot {
+    transform: translateY(-10px);
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.first-context:hover {
+    background-color: #292626;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11), 0 15px 24px #d8d8e1;
+}
+
+.second-context:hover .fa-location-dot {
+    transform: translateY(-10px);
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.second-context:hover {
+    background-color: #292626;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11), 0 15px 24px #d8d8e1;
+}
+
+.third-context:hover .fa-location-dot {
+    transform: translateY(-10px);
+}
+
+.third-context:hover {
+    background-color: #292626;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11), 0 15px 24px #d8d8e1;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes umbrella-animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+        right: 20px;
+    }
+}
+
+@keyframes curveline {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-20px);
+        margin-top: 40px;
+    }
+    100% {
+        transform: translateX(-50px);
+        margin-right: 20px;
+    }
+}
+
+.container-edit{
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+.container-edit-second{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.edit-container-three{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.four-edit-container{
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+.five-edit-container{
+
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+@keyframes curveline-two {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+        margin-top: 20px;
+    }
+    70% {
+        transform: translateX(50px);
+        margin-right: 40px;
+    }
+    100% {
+        transform: translateX(90px);
+        margin-right: 60px;
+    }
+}
+
+.section-title{
+    color: #232323;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    -webkit-text-stroke: thin;
+}
+
+
+@media screen and (max-width:1150px) {
+    .pinkdot-second{
+        display: none;
+    }
+    
+    .section-title{
+        font-size: 29px;
+    }
+    .feature-item-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.innericon-second {
+    left: 23%;
+    color: black;
+    position: absolute;
+    top: 28%;
+}
+
+@media screen and (max-width:1150px) {
+    .alwar-container {
+        margin: 20px 0px;
+    }
+}

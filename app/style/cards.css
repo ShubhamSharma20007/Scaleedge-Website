@@ -1,0 +1,143 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width:100%
+}
+.grap-main-container {
+    background-color:#0A0916 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+   padding: 20px;
+
+}
+.earthdot{
+position: absolute;
+
+}
+.graphic-sub-container{
+    display: flex;
+ 
+    justify-content: space-evenly;
+    padding: 0px !important;
+}
+
+.gra-images{
+    height: 30%;
+    width: 100%;
+   
+}
+
+
+.graphic-index i{
+        color: whitesmoke;
+}
+
+.graphic-index {
+    background-color:#262626;
+
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    transition: 0.5s;
+    transform: scale(1);
+    border-radius:4px;
+
+}
+.graphic-index:hover{
+    box-shadow: rgba(144, 131, 131, 0.25) 0px 14px 28px, rgba(134, 123, 123, 0.22) 0px 10px 10px;
+}
+
+.graphic-index img{
+    max-height: 100px;
+    margin: auto 50px;
+}
+.graphic-sub-container:hover .graphic-index img{
+    transform: scale(1.1);
+}
+
+
+
+
+/* glow effect */
+
+.graphic-sub-container{
+   
+    transition: .5s;
+}
+.graphic-index i{
+    transition: .3s;
+}
+
+.graphic-sub-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.graphic-sub-container:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+
+.graphic-sub-container:hover {
+    color: #ffee10;
+    background-color: white;
+    box-shadow: 0 0 10px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: #ffee10;
+}
+
+
+
+
+  .graphic-index::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    background: #ffee10;
+
+    transition: transform .3s;
+  }
+ 
+
+
+.graphic-sub-container {
+    overflow: hidden;
+  }
+
+  .graphic-index:hover i{
+    color:#ffee10 ;
+    transform: scale(1.1);
+  }
+  .graphic-index::before {
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 100%;
+    transform-origin: right top;
+    
+    transform: skewX(-30deg) scale(0, 1);
+  }
+
