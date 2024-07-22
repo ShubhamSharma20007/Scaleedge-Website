@@ -35,8 +35,8 @@ This project is licensed under the Scaleedge.in License.
 
 This project makes use of the following libraries and resources:
 
-- [Axios](https://github.com/axios/axios): Promise based HTTP client for the browser and Node.js.
-- [Full Responsble](https://github.com/fullrsponsble/fullrsponsble): https://scaleedge.in/ to Full Responsble's repository or website.
+- Axios : Promise based HTTP client for the browser and Node.js.
+- Full Responsble : https://scaleedge.in/ to Full Responsble's repository or website.
 
 
 
