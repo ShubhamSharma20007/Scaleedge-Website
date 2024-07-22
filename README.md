@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Scaleedge Website
 
-## Getting Started
+This project is a Scaleedge Website. It utilizes Tailwind CSS for styling, Next.js for server-side rendering and routing, and React Icons for easy integration of icons.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
+- [Next.js](https://nextjs.org/): A React framework for building server-side rendered applications.
+- [React Icons](https://react-icons.github.io/react-icons/): Provides popular icons as React components.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Feature 1 description (e.g., Server-side rendering with Next.js).
+- Feature 2 description (e.g., Responsive UI design with Tailwind CSS).
+- Feature 3 description (e.g., Easy integration of icons using React Icons).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone https://github.com/yourusername/your-repository.git`
+2. Navigate into the project directory: `cd your-repository`
+3. Install dependencies: `npm install` or `yarn install`
+4. Start the development server: `npm run dev` or `yarn dev`
+5. Open your browser and visit: `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the Scaleedge.in License.
+
+## Acknowledgements
+
+This project makes use of the following libraries and resources:
+
+- [Axios](https://github.com/axios/axios): Promise based HTTP client for the browser and Node.js.
+- [Full Responsble](https://github.com/fullrsponsble/fullrsponsble): https://scaleedge.in/ to Full Responsble's repository or website.
+
+
+
