@@ -18,7 +18,7 @@ This project is a Scaleedge Website. It utilizes Tailwind CSS for styling, Next.
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repository.git`
+1. Clone the repository: `git clone https://github.com/ShubhamSharma20007/Scaleedge-Website.git`
 2. Navigate into the project directory: `cd your-repository`
 3. Install dependencies: `npm install` or `yarn install`
 4. Start the development server: `npm run dev` or `yarn dev`
